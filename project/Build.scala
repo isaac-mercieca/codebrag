@@ -119,7 +119,7 @@ object Dependencies {
 
   val httpClient = "net.databinder.dispatch" %% "dispatch-core" % "0.11.2"
 
-  val crypto = "com.roundeights" %% "hasher" % "1.0.0"
+  val crypto = "com.roundeights" %% "hasher" % "1.2.0"
 
 }
 
