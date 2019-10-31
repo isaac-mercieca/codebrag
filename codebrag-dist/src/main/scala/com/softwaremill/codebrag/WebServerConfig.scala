@@ -8,4 +8,5 @@ trait WebServerConfig extends ConfigWithDefault {
 
   lazy val webServerHost: String = getString("codebrag.web-server-host", "0.0.0.0")
   lazy val webServerPort: Int = getInt("codebrag.web-server-port", 8080)
+  lazy val webServerContext: String = getString("codebrag.web-server-context", "/")
 }
